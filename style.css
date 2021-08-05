@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#info div {
+	padding: 3rem;
+	background: #ffe6e6;
+	margin: 0.5rem;
+	border-radius: 5px;
+	color: #bd1616;
+	text-align: center;
+}
+
+#info div:hover {
+	background-color: white;
+	color: black;
+}
+
+h1:hover {
+	color: dodgerblue;
+}
